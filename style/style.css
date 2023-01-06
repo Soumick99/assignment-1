@@ -1,0 +1,39 @@
+header {
+    background-image: url(/images/banner/banner3.png);
+    height: 808px;
+}
+
+.banner-heading {
+    font-size: 65px;
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    padding: 216px 230px 0 0;
+    text-align: right;
+}
+
+.banner-description {
+    color: white;
+    text-align: right;
+    width: 494px;
+    margin-left: 1180px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1510px;
+}
