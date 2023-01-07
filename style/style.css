@@ -1,9 +1,7 @@
-
 /* Header section */
 header {
     background-image: url(/images/banner/banner3.png);
-   background-repeat: no-repeat;
-   width: 1400px;
+    background-repeat: no-repeat;
     height: 808px;
     margin: 0 230px 130px;
     padding-right: 10px;
@@ -17,15 +15,15 @@ main {
 
 .banner-heading {
     font-size: 65px;
-    color: white;
+    color: black;
     font-family: 'Work Sans';
     font-style: normal;
-    padding-top: 216px; 
+    padding-top: 216px;
     text-align: right;
 }
 
 .banner-description {
-    color: white;
+    color: black;
     width: 494px;
     text-align: right;
     font-family: 'Work Sans';
@@ -53,7 +51,7 @@ main {
     right: 0;
     bottom: 130px;
     display: block;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 /* Personal Information section */
@@ -118,7 +116,7 @@ main {
 .extra-section {
     width: 600px;
     height: 600px;
-    background-image:linear-gradient(to right, rgba(255, 0, 0, 0.666) , skyblue);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.666), skyblue);
     border-radius: 300px;
     margin-bottom: 130px;
     text-align: center;
@@ -129,18 +127,21 @@ main {
 
 .extra-section h1 {
     padding: 100px 50px 0;
-    line-height:0px;
+    line-height: 0px;
     font-size: 60px;
 }
-.extra-section h2{
+
+.extra-section h2 {
     color: white;
 }
-.extra-section textarea{
+
+.extra-section textarea {
     margin-top: 60px;
     border-radius: 10px;
-   
+
 }
-.extra-section button{
+
+.extra-section button {
     font-size: 18px;
     color: skyblue;
     width: 160px;
