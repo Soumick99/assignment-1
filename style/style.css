@@ -2,8 +2,12 @@
 /* Header section */
 header {
     background-image: url(/images/banner/banner3.png);
+   background-repeat: no-repeat;
     height: 808px;
-    margin-bottom: 130px;
+    margin: 0 230px 130px;
+    padding-right: 10px;
+    position: relative;
+    border-radius: 5px;
 }
 
 main {
@@ -15,20 +19,23 @@ main {
     color: white;
     font-family: 'Work Sans';
     font-style: normal;
-    padding: 216px 230px 0 0;
+    padding-top: 216px; 
     text-align: right;
 }
 
 .banner-description {
     color: white;
-    text-align: right;
     width: 494px;
-    margin-left: 1160px;
+    text-align: right;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    position: absolute;
+    right: 0;
+    display: block;
+    padding-right: 10px;
 }
 
 .banner-btn {
@@ -41,8 +48,11 @@ main {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    text-align: center;
-    margin-left: 1490px;
+    position: absolute;
+    right: 0;
+    bottom: 130px;
+    display: block;
+    margin-right:10px;
 }
 
 /* Personal Information section */
