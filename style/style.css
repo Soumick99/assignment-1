@@ -100,6 +100,32 @@ main {
     font-size: 18px;
     line-height: 29px;
 }
+/* .................................................. */
+.mindset{
+    background-image:linear-gradient(to right, rgb(135, 207, 235),rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.mindset-info{
+    width: 459px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    padding-left: 64px;
+}
+.mindset button{
+    font-size: 18px;
+    color: skyblue;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+
+}
 
 /* ................................................... */
 
@@ -109,6 +135,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 130px 230px;
+    margin-top: 130px;
 }
 
 .footer-info {
