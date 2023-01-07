@@ -1,3 +1,5 @@
+
+/* Header section */
 header {
     background-image: url(/images/banner/banner3.png);
     height: 808px;
@@ -43,7 +45,7 @@ main {
     margin-left: 1490px;
 }
 
-/* ............................................ */
+/* Personal Information section */
 
 .personal-info {
     display: flex;
@@ -76,7 +78,7 @@ main {
     margin-right: 10px;
 }
 
-/* ................................................. */
+/* My Plans Section */
 .my-plans {
     margin: 130px 0;
 }
@@ -101,7 +103,7 @@ main {
     line-height: 29px;
 }
 
-/* ................................................... */
+/* Bonus Section */
 .extra-section {
     width: 600px;
     height: 600px;
@@ -138,7 +140,7 @@ main {
 
 }
 
-/* .................................................. */
+/* Gradient Section */
 .mindset {
     background-image: linear-gradient(to right, rgb(135, 207, 235), rgb(255, 255, 255));
     background-repeat: no-repeat;
@@ -167,7 +169,7 @@ main {
 
 }
 
-/* ................................................... */
+/* Footer */
 
 footer {
     background-color: black;
