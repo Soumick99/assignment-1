@@ -1,6 +1,6 @@
 /* Header section */
 header {
-    background-image: url("/images/banner3.png");
+    background-image: url("../images/banner3.png");
     background-repeat: no-repeat;
     height: 808px;
     margin: 0 230px 130px;
