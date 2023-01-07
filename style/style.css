@@ -1,6 +1,7 @@
 header {
     background-image: url(/images/banner/banner3.png);
     height: 808px;
+    margin-bottom: 130px;
 }
 
 main {
@@ -41,27 +42,113 @@ main {
     text-align: center;
     margin-left: 1510px;
 }
+
 /* ............................................ */
 
-.personal-info{
+.personal-info {
     display: flex;
     align-items: center;
 }
-.personal-info-details{
+
+.personal-info-details {
     margin-left: 87px;
 }
-.personal-info-details h1{
+
+.personal-info-details h1 {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
 }
-.personal-info-description{
+
+.personal-info-description {
     width: 494px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+}
+
+.fa-solid {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* ................................................. */
+.my-plans {
+    margin: 130px 0;
+}
+
+.my-plans-heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+.my-plans-description {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.my-plans-description p {
+    color: #737272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+/* ................................................... */
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.footer-info {
+    width: 485px;
+}
+.footer-info h1{
+    font-size: 45px;
+}
+
+footer p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    width: 325px;
+    height: 64px;
+    font-size: 20px;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+footer button{
+width: 170.11px;
+height: 64px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+background-color: skyblue;
+border-radius: 15px;
+color: white;
 }
