@@ -1,7 +1,7 @@
 /* Header section */
 header {
-    background-color: green;
-    
+    background-image: url("/images/banner3.png");
+    background-repeat: no-repeat;
     height: 808px;
     margin: 0 230px 130px;
     padding-right: 10px;
@@ -15,7 +15,7 @@ main {
 
 .banner-heading {
     font-size: 65px;
-    color: black;
+    color: white;
     font-family: 'Work Sans';
     font-style: normal;
     padding-top: 216px;
@@ -23,7 +23,7 @@ main {
 }
 
 .banner-description {
-    color: black;
+    color: white;
     width: 494px;
     text-align: right;
     font-family: 'Work Sans';
